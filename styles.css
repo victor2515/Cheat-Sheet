@@ -72,12 +72,9 @@ td {
     border-radius: 40px;
 }
 
-/*  
-.class {
-    background-color: hsl(204, 82%, 33%);
-    color: white;
-    width: 40%;
-    padding: 10px 20px;
-    margin: 10px 10px;
+img {
+    width: 400px;
+    border-radius: 150px;
+    float: left;
+    margin: 0px 30px;
 }
-*/
