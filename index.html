@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href = "./resources/styles.css" rel="stylesheet">
+    <title>CSS: Selectors</title>
+</head>
+<body>
+    <header>CSS: Selectors</header> 
+    <main>
+        <section class="selectors">
+            <h1>Selectors</h1>
+            <p>A selector is used to target the specific HTML element(s) to be styled by the declaration.</p>
+            <p>The type selector selects all elements of a given type.</p>
+        </section>
+
+        <div class="firstLine">
+        <section class="universal">     
+            <article>
+                <br>
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan="2" scope="col">Universal</th>
+                        </tr>
+                        <tr>
+                            <th>Explanation</th>
+                            <th>Example</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>The universal selector uses the * character to select all elementsof any type</td>
+                            <td>* { <br>
+                                    &nbsp; &nbsp; font-family: Verdana;<br>
+                                  }</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </article>
+        </section>
+
+        <section class = "class">
+            <br>
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2">Class</th>
+                    </tr>
+                    <tr>
+                        <th>Explanation</th>
+                        <th>Example</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>One of the most common ways to select and access specific elements</td>
+                        <td>.universal &nbsp; { <br>
+                            <p>&nbsp; backgroundcolor: white;</p>
+                            &nbsp;}
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        </div>
+
+        <div class="secondLine">
+        <section class = "id">
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2">ID</th>
+                    </tr>
+                    <tr>
+                        <th>Explanation</th>
+                        <th>Example</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Uses the id attribute of an HTML element to select a specific element.</td>
+                        <td><p>#photo &nbsp; {<br>
+                                &nbsp;text-align: center;<br>
+                                &nbsp;color: red;<br>
+                                }</p></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+
+        <section class = "element">
+            <br><br>
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2">Element</th>
+                    </tr>
+                    <tr>
+                        <th>Explanation</th>
+                        <th>Example</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>The element selector selects HTML elements based on the element name.</td>
+                        <td>p &nbsp; { <br>
+                            &nbsp; text-align:center;<br>
+                            &nbsp; color: red;<br>
+                            }</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
+
+    </main>  
+    
+</body>
+</html>
+
+<!-- Probably for the banner at the beggening
+<p>Types:</p>
+<ul>
+    <li>Universal</li>
+    <li>Class</li>
+    <li>Multiple classes</li>
+    <li>ID</li>
+    <li>Attribute</li>
+    <li>Pseudo-class</li>
+    <li>Classes and ID'S</li>
+</ul>
+-->
